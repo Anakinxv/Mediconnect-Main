@@ -121,7 +121,7 @@ function DashboardPage() {
         <MCButton
           variant="primary"
           icon={<Plus className={isMobile ? "w-9 h-9" : "w-3 h-3"} />}
-          className={isMobile ? "h-8 w-8 p-0 rounded-full flex items-center justify-center" : "h-9 px-3"}
+          className={isMobile ? "h-8 w-8 p-0 rounded-full flex items-center justify-center" : "flex w-full items-center px-4 py-3.5 px-4 py-3.5 text-base sm:px-8 sm:py-4 md:px-10 md:py-5 lg:px-5 lg:py-5 lg:text-md rounded-4xl border-primary/20"}
           size="m"
         >
           {!isMobile && t("appointments.scheduleNew", "Agendar Cita")}
